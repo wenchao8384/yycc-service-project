@@ -16,4 +16,7 @@ public class GetHashCodeClass {
         return String.valueOf(this.targe.hashCode());
     }
 
+    public String getTarge() {
+        return targe;
+    }
 }
